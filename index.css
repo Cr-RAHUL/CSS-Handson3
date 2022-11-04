@@ -1,0 +1,193 @@
+body{
+    background-image: url(./grey-background.jpg);
+    background-image: cover;
+}
+
+.main{
+    height: 143px;
+    width: 416px;
+    background-color: white;
+    color: #280b11;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    border: 8px solid red;
+    border-radius: 14px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: #890824;
+    line-height: 36px;
+    padding-top: -2px;
+    box-shadow: 7px 7px 0px darkmagenta;
+    text-shadow: 2px 2px 2px darkmagenta;
+    position: relative;
+    left: 500px;
+}
+.table{
+    font-style: italic;
+    font-size: 30px;
+    /* font-size: 50px; */
+    font-weight: bolder;
+    border: 9px solid red;
+    background-color: greenyellow;
+    color: #890824;
+    height: 91px;
+    width: 499px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 18px;
+    padding-top: -9px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: fixed;
+    left: 29%;
+    bottom: 39px;
+    z-index: 1;
+    font-size: 20px;
+ 
+}
+
+.parent{
+    width:1410px;
+    height: 600px;
+    background-color: #5F5D5D;
+    border: 5px solid green;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    position:relative;
+}
+.child1{
+    width: 216px;
+    height: 197px;
+    border: 8px solid red;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    box-shadow: 7px 7px 0px darkmagenta;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 18px;
+    color: black;
+    text-shadow:2px 1px 3px darkmagenta ;
+}
+
+.child2{
+    width: 211px;
+    height: 213px;
+    border: 8px solid red;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 75px;
+    box-shadow: 7px 7px 0px darkmagenta;
+    background-image: url(./delivery.jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center;
+    background-size: 81%;
+   
+}
+.child3{
+    width: 221px;
+    height: 228px;
+    border: 8px solid red;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 25px;
+    right: 75px;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 7px 7px 0px darkmagenta;
+    color: black;
+    text-shadow: 2px 1px 3px darkmagenta;
+}
+
+.sub{
+    height: 20px;
+    width: 84px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: red;
+    padding: 5px;
+    font-size: 11px;
+    padding-top: -1px;
+    font-weight: bold;
+    position: relative;
+    top: -18px;
+}    
+.child4{
+    width: 213px;
+    height: 227px;
+    border: 8px solid red;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+    box-shadow: 7px 7px 0px darkmagenta;
+    font-size: 22px;
+    padding-top: 0px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 2px 1px 3px darkmagenta;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    top: 50px;
+}
+.mystore{
+    border: 9px solid purple;
+    background-color: darkgreen;
+    text-align: center;
+    width: 840px;
+    height: 750px;
+    margin-top: 130px;
+    margin-left: 21%;
+    font-size: 14px;
+    position: relative;
+    top: -107px;
+    padding-top: 1px;
+}
+.flex-items {
+    border: 1px solid purple;
+    background-color: rgb(209, 209, 95);
+    color: black;
+    margin: 9px;
+    margin-bottom: 5px;
+    height: 288px;
+    width: 400px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+
+  }
+  .flex-items1 {
+    border: 1px solid purple;
+    background-color: rgb(209, 209, 95);
+    color: black;
+    margin: 8px;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 813px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+
+  }
